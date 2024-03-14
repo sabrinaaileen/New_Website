@@ -1,0 +1,127 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.navbar {
+  background-color: #3c687c;
+}
+.navbar-brand {
+  letter-spacing: 2px;
+}
+.navbar-image {
+  width: 100%;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+header .hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./images/Lederjacke.JPG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 200px 0;
+  margin: 0px auto;
+  width: 100%;
+}
+header h1,
+header h2,
+header a {
+  letter-spacing: 2px;
+  line-height: 1.5;
+  color: #fff;
+}
+header h1 {
+  font-size: 62px;
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+header h2 {
+  font-size: 48px;
+  margin: 10px auto;
+}
+header a {
+  font-size: 28px;
+  text-decoration: none;
+  padding: 10px 15px;
+  border: 1px solid #3c687c;
+  color: #3c687c;
+  background-color: #fff;
+  margin-bottom: 50px;
+}
+.quote-section {
+  width: 80%;
+  background-color: rgba(211, 211, 211, 0.4);
+  margin: 30px auto;
+  padding: 45px 45px;
+  text-align: center;
+  font-size: 25px;
+  letter-spacing: 3px;
+  line-height: 1.5;
+}
+.info-section {
+  background-color: rgba(211, 211, 211, 0.2);
+  margin: 30px auto;
+  width: 90%;
+  padding: 20px 25px;
+  text-align: center;
+  line-height: 1.5;
+}
+.info-section h3 {
+  font-size: 35px;
+  letter-spacing: 2px;
+  margin: 20px auto;
+}
+.info-section p {
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+.info-section .biographie-list {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  font-size: 15px;
+}
+.info-section .biographie-list-item {
+  margin-top: 10px;
+  letter-spacing: 2px;
+}
+
+footer {
+  padding: 20px auto;
+  text-align: center;
+}
+footer p {
+  font-size: 14px;
+  letter-spacing: 3px;
+  line-height: 1.5;
+}
+footer a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+@media (max-width: 900px) {
+  .navbar-brand {
+    font-size: 15px;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .quote-section {
+    font-size: 15px;
+  }
+  header h1 {
+    font-size: 50px;
+  }
+  header h2 {
+    font-size: 30px;
+  }
+  header a {
+    font-size: 20px;
+  }
+}
