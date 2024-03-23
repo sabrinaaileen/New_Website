@@ -51,10 +51,17 @@ header a {
   font-size: 28px;
   text-decoration: none;
   padding: 10px 15px;
-  border: 1px solid #3c687c;
-  color: #3c687c;
-  background-color: #fff;
+  border: 1px solid #000;
+  color: #000;
+  background-color: rgba(211, 211, 211, 0.2);
   margin-bottom: 50px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  transition: all 150ms ease-in-out;
+}
+header a:hover {
+  background-color: #3c687c;
+  color: #fff;
+  border-color: #fff;
 }
 .quote-section {
   width: 80%;
@@ -105,22 +112,35 @@ header a {
   font-size: 12px;
   margin: 10px auto;
 }
-.info-section .event-button {
-  color: #3c687c;
-  background-color: #b7dced;
-  border: 2px solid #3c687c;
+.info-section #show-text-upcoming {
+  text-align: center;
+}
+.info-section .show-button {
+  color: #000;
+  background-color: rgba(211, 211, 211, 0.2);
+  border: 2px solid #000;
   padding: 10px 15px;
   margin: 10px 20px;
   letter-spacing: 3px;
   line-height: 1.5;
   font-size: 18px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
   transition: all 150ms ease-in-out;
 }
-.info-section .event-button:hover {
+.info-section .show-button:hover {
   cursor: pointer;
-  color: #b7dced;
-  border-color: #b7dced;
+  color: #fff;
+  border-color: #fff;
   background-color: #3c687c;
+}
+.info-section .show-list {
+  margin: 30px auto;
+  list-style-position: inside;
+}
+.info-section .show-list-item {
+  padding-top: 5px;
+  line-height: 1.5;
+  letter-spacing: 2px;
 }
 
 footer {
