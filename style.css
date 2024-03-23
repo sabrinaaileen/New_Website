@@ -7,7 +7,7 @@ body {
 .navbar-brand {
   letter-spacing: 2px;
 }
-.navbar-image {
+.full-width-image {
   width: 100%;
 }
 .grid {
@@ -34,7 +34,7 @@ header .hero {
 header h1,
 header h2,
 header a {
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   line-height: 1.5;
   color: #fff;
 }
@@ -44,7 +44,7 @@ header h1 {
   margin-bottom: 100px;
 }
 header h2 {
-  font-size: 48px;
+  font-size: 40px;
   margin: 10px auto;
 }
 header a {
@@ -53,7 +53,7 @@ header a {
   padding: 10px 15px;
   border: 1px solid #000;
   color: #000;
-  background-color: rgba(211, 211, 211, 0.2);
+  background-color: rgba(211, 211, 211, 0.7);
   margin-bottom: 50px;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
   transition: all 150ms ease-in-out;
@@ -144,6 +144,7 @@ header a:hover {
 }
 
 footer {
+  margin-top: 20px;
   padding: 20px auto;
   text-align: center;
 }
