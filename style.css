@@ -19,6 +19,13 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   padding: 40px 25px;
+  gap: 20px;
+}
+.grid-2-columns-irregular {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 10px;
+  padding: 20px 10px;
 }
 header .hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -158,6 +165,14 @@ footer a {
   color: black;
   font-weight: bold;
 }
+@media (max-width: 1100px) {
+  .grid-3-columns {
+    grid-template-columns: 1fr;
+  }
+  .grid-2-columns-irregular {
+    grid-template-columns: 1fr;
+  }
+}
 
 @media (max-width: 900px) {
   .navbar-brand {
@@ -166,9 +181,7 @@ footer a {
   .grid {
     grid-template-columns: 1fr;
   }
-  .grid-3-columns {
-    grid-template-columns: 1fr;
-  }
+
   .quote-section {
     font-size: 15px;
   }
