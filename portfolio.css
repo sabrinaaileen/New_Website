@@ -1,0 +1,55 @@
+#portfolio-header {
+  background-color: rgba(211, 211, 211, 0.4);
+  width: 90%;
+  margin: 20px auto;
+  padding: 80px 0;
+}
+#portfolio-header h1,
+#portfolio-header h2 {
+  color: black;
+  text-align: center;
+  padding: 50px;
+  margin: 20px auto;
+}
+.presenting-section {
+  width: 80%;
+  margin: 30px auto;
+  padding: 40px 0;
+}
+.presenting-section h3,
+.presenting-section p {
+  line-height: 1.5;
+  letter-spacing: 2px;
+  padding: 10px 15px;
+}
+.portfolio-button {
+  padding: 10px 15px;
+  margin: 10px 15px;
+  border-radius: 10px;
+  letter-spacing: 3px;
+  line-height: 1.5;
+  border: 1px solid #000;
+  color: #000;
+  background-color: rgba(211, 211, 211, 0.2);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  transition: all 150ms ease-in-out;
+}
+.portfolio-button:hover {
+  cursor: pointer;
+  color: #fff;
+  border-color: #fff;
+  background-color: #3c687c;
+}
+.presenting-section .portfolio-paragraph {
+  text-align: center;
+  margin: 20px 5px;
+}
+.portfolio-image {
+  width: 350px;
+  margin: 20px auto;
+}
+.portfolio-link {
+  text-decoration: none;
+  color: #3c687c;
+  font-weight: bold;
+}
