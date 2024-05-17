@@ -29,7 +29,7 @@ body {
 }
 header .hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("./images/Lederjacke.JPG");
+    url("./images/2024-Portrait-2.JPEG");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -112,6 +112,12 @@ header a:hover {
   display: block;
   margin: 0 auto;
 }
+.body {
+  height: 470px;
+}
+.portrait {
+  height: 380px;
+}
 .image-subtitle {
   text-align: center;
   letter-spacing: 3px;
@@ -178,18 +184,25 @@ footer a {
   .navbar-brand {
     font-size: 15px;
   }
+  header .hero {
+    padding: 50px 0;
+  }
+  header h1 {
+    font-size: 35px;
+    margin-top: 60px;
+    margin-bottom: 70px;
+  }
+  header h2 {
+    font-size: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
   .grid {
     grid-template-columns: 1fr;
   }
 
   .quote-section {
     font-size: 15px;
-  }
-  header h1 {
-    font-size: 50px;
-  }
-  header h2 {
-    font-size: 30px;
   }
   header a {
     font-size: 20px;

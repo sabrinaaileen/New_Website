@@ -37,7 +37,7 @@ function showArchiveText() {
 
   showFive.className = "show-list-item";
   showFive.innerHTML =
-    "<b><u>2024</u></b> <br /><b>Ich bin Sturm </b><br /> vom Ensemble geschrieben und entwickelt, Spielleitung: Sabrina Aileen Hodapp, Bühne: Einstein Kultur München <br /> <b>Die Thrillerpfeifen: </b><br /> Mord im Dinopark <br /> Mord im Versicherungsbüro <br /> Mord im Yoga-Kurs";
+    "<b><u>2024</u></b> <br /><b>Ich bin Sturm </b><br /> vom Ensemble geschrieben und entwickelt, als Spielleitung und Schauspielerin, Bühne: Einstein Kultur München <br /> <b>Die Thrillerpfeifen: </b><br /> Mord im Dinopark <br /> Mord im Versicherungsbüro <br /> Mord im Yoga-Kurs";
   document.getElementById("show-list").appendChild(showFive);
 
   showOne.className = "show-list-item";
