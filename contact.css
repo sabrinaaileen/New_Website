@@ -78,3 +78,18 @@ input {
   border-color: #fff;
   background-color: #4084c9;
 }
+
+@media (max-width: 1000px) {
+  .grid-2-different-columns {
+    grid-template-columns: 1fr;
+  }
+  #contact-heading {
+    font-size: 40px;
+  }
+  #contact-form input {
+    width: 275px;
+  }
+  #contact-form textarea {
+    width: 275px;
+  }
+}
