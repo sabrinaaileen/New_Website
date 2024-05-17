@@ -18,7 +18,12 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script
+      src="https://kit.fontawesome.com/8c20176ae0.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="contact.css" />
     <title>Contact · Sabrina Aileen Hodapp</title>
   </head>
   <body>
@@ -56,6 +61,72 @@
         </div>
       </div>
     </nav>
+    <section id="contact-section">
+      <div class="contact-item">
+        <h2 id="contact-heading">Let's get in touch</h2>
+      </div>
+      <div class="grid-2-different-columns">
+        <div class="grid-item">
+          <h4>Kontakt:</h4>
+          <ul>
+            <li>Sabrina Aileen Hodapp</li>
+            <li>80469 München</li>
+            <br />
+            <li>hodapp.sabrina@live.de</li>
+          </ul>
+          <br />
+          <ul>
+            <li class="contact-icons" title="GitHub">
+              <a href="https://github.com/sabrinaaileen" target="_blank"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </li>
+            <li class="contact-icons" title="Instagram">
+              <a
+                href="https://www.instagram.com/sabrina_aileen_hodapp/"
+                target="_blank"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </li>
+            <li class="contact-icons" title="Facebook">
+              <a
+                href="https://www.facebook.com/sabrina.hodapp.1"
+                target="_blank"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+            </li>
+            <li class="contact-icons" title="Castforward">
+              <a
+                href="https://www.castforward.de/members/profile/sabrinaaileen-hodapp"
+                target="_blank"
+                ><i class="fa-solid fa-masks-theater"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class="grid-item">
+          <form action="" id="contact-form">
+            <label for="name">Name eingeben</label>
+            <br />
+            <input type="text" name="name" id="name" required />
+            <br />
+            <label for="email">E-Mail eingeben</label>
+            <br />
+            <input type="email" name="email" id="email" required />
+            <br />
+            <label for="subject">Betreff</label>
+            <br />
+            <input type="text" name="subject" id="subject" />
+            <br />
+            <label for="message">Nachricht eingeben</label>
+            <br />
+            <textarea id="message" name="message" cols="56" rows="5"></textarea>
+            <br />
+            <input type="submit" value="Abschicken" id="contact-submit" />
+          </form>
+        </div>
+      </div>
+    </section>
     <footer>
       <p>
         This website is open-sourced
