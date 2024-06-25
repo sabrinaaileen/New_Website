@@ -158,11 +158,14 @@ header a:hover {
 
 footer {
   margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
   padding: 20px auto;
   text-align: center;
+  background-color: rgba(211, 211, 211, 0.4);
 }
 footer p {
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: 3px;
   line-height: 1.5;
 }
@@ -170,7 +173,32 @@ footer a {
   text-decoration: none;
   color: black;
   font-weight: bold;
+  letter-spacing: 3px;
+  line-height: 1.5;
 }
+footer .footer-private-policy {
+  margin: 10px auto;
+}
+footer .footer-private-policy a {
+  font-weight: 400;
+  font-size: 12px;
+}
+footer .footer-meeting-paragraph {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+footer ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  background-color: #fff;
+}
+footer li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
 @media (max-width: 1100px) {
   .grid-3-columns {
     grid-template-columns: 1fr;
