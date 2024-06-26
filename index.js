@@ -13,9 +13,9 @@ function showUpcomingText() {
   document.getElementById("show-list-item-three").style.display = "list-item";
   document.getElementById("show-list-item-four").style.display = "list-item";
   document.getElementById("show-list-item-five").style.display = "list-item";
-  document.getElementById("show-list-item-six").style.display = "list-item";
-  document.getElementById("show-list-item-seven").style.display = "list-item";
-  document.getElementById("show-list-item-eight").style.display = "list-item";
+  //document.getElementById("show-list-item-six").style.display = "list-item";
+  //document.getElementById("show-list-item-seven").style.display = "list-item";
+  //document.getElementById("show-list-item-eight").style.display = "list-item";
   document.getElementById("show-list").removeChild(showOne);
   document.getElementById("show-list").removeChild(showTwo);
   document.getElementById("show-list").removeChild(showThree);
@@ -31,13 +31,13 @@ function showArchiveText() {
   document.getElementById("show-list-item-three").style.display = "none";
   document.getElementById("show-list-item-four").style.display = "none";
   document.getElementById("show-list-item-five").style.display = "none";
-  document.getElementById("show-list-item-six").style.display = "none";
-  document.getElementById("show-list-item-seven").style.display = "none";
-  document.getElementById("show-list-item-eight").style.display = "none";
+  //document.getElementById("show-list-item-six").style.display = "none";
+  //document.getElementById("show-list-item-seven").style.display = "none";
+  //document.getElementById("show-list-item-eight").style.display = "none";
 
   showFive.className = "show-list-item";
   showFive.innerHTML =
-    "<b><u>2024</u></b> <br /><b>Ich bin Sturm </b><br /> vom Ensemble geschrieben und entwickelt, als Spielleitung und Schauspielerin, Bühne: Einstein Kultur München <br /> <b>Die Thrillerpfeifen: </b><br /> Mord im Bahnhof <br /> Mord im E-Bike-Laden <br /> Mord im Dinopark <br /> Mord im Versicherungsbüro <br /> Mord im Yoga-Kurs";
+    "<b><u>2024</u></b> <br /><b>Ich bin Sturm </b><br /> vom Ensemble geschrieben und entwickelt, als Spielleitung und Schauspielerin, Bühne: Einstein Kultur München <br /> <b>Die Thrillerpfeifen: </b><br /> Mord auf dem Campingplatz <br /> Mord in der Westernstadt <br /> Mord beim Fußballturnier <br /> Mord im Bahnhof <br /> Mord im E-Bike-Laden <br /> Mord im Dinopark <br /> Mord im Versicherungsbüro <br /> Mord im Yoga-Kurs";
   document.getElementById("show-list").appendChild(showFive);
 
   showOne.className = "show-list-item";
