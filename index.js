@@ -37,7 +37,7 @@ function showArchiveText() {
 
   showFive.className = "show-list-item";
   showFive.innerHTML =
-    "<b><u>2024</u></b> <br /><b>Ich bin Sturm </b><br /> vom Ensemble geschrieben und entwickelt, als Spielleitung und Schauspielerin, Bühne: Einstein Kultur München <br /> <b>Die Thrillerpfeifen: </b><br /> Mord auf dem Campingplatz <br /> Mord in der Westernstadt <br /> Mord beim Fußballturnier <br /> Mord im Bahnhof <br /> Mord im E-Bike-Laden <br /> Mord im Dinopark <br /> Mord im Versicherungsbüro <br /> Mord im Yoga-Kurs";
+    "<b><u>2024</u></b> <br /><b>Penthesilea</b> nach Kleist, Regie: Martina Sedlmeier, Bühne: Kulturzentrum Luise<br /><b>Ich bin Sturm </b><br /> vom Ensemble geschrieben und entwickelt, als Spielleitung und Schauspielerin, Bühne: Einstein Kultur München <br /> <b>Die Thrillerpfeifen: </b> <br /> Mord im Wirtshaus <br /> Mord im Fitnessclub <br /> Mord auf der Hochzeit <br /> Mord in der Cocktailbar <br /> Mord auf dem Campingplatz <br /> Mord in der Westernstadt <br /> Mord beim Fußballturnier <br /> Mord im Bahnhof <br /> Mord im E-Bike-Laden <br /> Mord im Dinopark <br /> Mord im Versicherungsbüro <br /> Mord im Yoga-Kurs";
   document.getElementById("show-list").appendChild(showFive);
 
   showOne.className = "show-list-item";
