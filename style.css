@@ -156,6 +156,14 @@ header a:hover {
   letter-spacing: 2px;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  letter-spacing: 3px;
+  line-height: 1.5;
+}
+
 footer {
   margin-top: 20px;
   margin-left: 20px;

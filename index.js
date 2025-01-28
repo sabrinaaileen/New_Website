@@ -6,6 +6,7 @@ let showOne = document.createElement("li");
 let showTwo = document.createElement("li");
 let showThree = document.createElement("li");
 let showFour = document.createElement("li");
+let showSix = document.createElement("li");
 
 function showUpcomingText() {
   document.getElementById("show-list-item-one").style.display = "list-item";
@@ -13,14 +14,15 @@ function showUpcomingText() {
   document.getElementById("show-list-item-three").style.display = "list-item";
   document.getElementById("show-list-item-four").style.display = "list-item";
   document.getElementById("show-list-item-five").style.display = "list-item";
-  //document.getElementById("show-list-item-six").style.display = "list-item";
-  //document.getElementById("show-list-item-seven").style.display = "list-item";
-  //document.getElementById("show-list-item-eight").style.display = "list-item";
+  document.getElementById("show-list-item-six").style.display = "list-item";
+  document.getElementById("show-list-item-seven").style.display = "list-item";
+  document.getElementById("show-list-item-eight").style.display = "list-item";
   document.getElementById("show-list").removeChild(showOne);
   document.getElementById("show-list").removeChild(showTwo);
   document.getElementById("show-list").removeChild(showThree);
   document.getElementById("show-list").removeChild(showFour);
   document.getElementById("show-list").removeChild(showFive);
+  document.getElementById("show-list").removeChild(showSix);
 }
 
 let eventArchive = document.getElementById("event-text-upcoming");
@@ -31,13 +33,18 @@ function showArchiveText() {
   document.getElementById("show-list-item-three").style.display = "none";
   document.getElementById("show-list-item-four").style.display = "none";
   document.getElementById("show-list-item-five").style.display = "none";
-  //document.getElementById("show-list-item-six").style.display = "none";
-  //document.getElementById("show-list-item-seven").style.display = "none";
-  //document.getElementById("show-list-item-eight").style.display = "none";
+  document.getElementById("show-list-item-six").style.display = "none";
+  document.getElementById("show-list-item-seven").style.display = "none";
+  document.getElementById("show-list-item-eight").style.display = "none";
+
+  showSix.className = "show-list-item";
+  showSix.innerHTML =
+    "<b><u>2025</u></b> <br /> <b>Die Thrillerpfeifen: </b> <br /> Mord im Zoo <br /> Mord im Casino";
+  document.getElementById("show-list").appendChild(showSix);
 
   showFive.className = "show-list-item";
   showFive.innerHTML =
-    "<b><u>2024</u></b> <br /><b>Penthesilea</b> nach Kleist, Regie: Martina Sedlmeier, Bühne: Kulturzentrum Luise<br /><b>Ich bin Sturm </b><br /> vom Ensemble geschrieben und entwickelt, als Spielleitung und Schauspielerin, Bühne: Einstein Kultur München <br /> <b>Die Thrillerpfeifen: </b> <br /> Mord im Wirtshaus <br /> Mord im Fitnessclub <br /> Mord auf der Hochzeit <br /> Mord in der Cocktailbar <br /> Mord auf dem Campingplatz <br /> Mord in der Westernstadt <br /> Mord beim Fußballturnier <br /> Mord im Bahnhof <br /> Mord im E-Bike-Laden <br /> Mord im Dinopark <br /> Mord im Versicherungsbüro <br /> Mord im Yoga-Kurs";
+    "<b><u>2024</u></b> <br /><b>Penthesilea</b> nach Kleist, Regie: Martina Sedlmeier, Bühne: Kulturzentrum Luise<br /><b>Ich bin Sturm </b><br /> vom Ensemble geschrieben und entwickelt, als Spielleitung und Schauspielerin, Bühne: Einstein Kultur München <br /> <b>Die Thrillerpfeifen: </b> <br /> Mord auf der Weihnachtsfeier <br /> Mord im Spukhaus <br /> Mord im Wirtshaus <br /> Mord im Fitnessclub <br /> Mord auf der Hochzeit <br /> Mord in der Cocktailbar <br /> Mord auf dem Campingplatz <br /> Mord in der Westernstadt <br /> Mord beim Fußballturnier <br /> Mord im Bahnhof <br /> Mord im E-Bike-Laden <br /> Mord im Dinopark <br /> Mord im Versicherungsbüro <br /> Mord im Yoga-Kurs";
   document.getElementById("show-list").appendChild(showFive);
 
   showOne.className = "show-list-item";
