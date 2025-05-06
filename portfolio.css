@@ -36,6 +36,7 @@ h5,
 }
 h3 {
   margin: 30px auto;
+  margin-top: 0;
   padding: 50px 0px 0px 0px;
   font-size: 50px;
 }
@@ -106,6 +107,10 @@ h5 {
 }
 .showreel-video-item:hover {
   transform: scale(1.1);
+}
+
+.grid-padding {
+  padding-top: 10px;
 }
 
 @media (max-width: 1100px) {

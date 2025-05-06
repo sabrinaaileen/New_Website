@@ -18,7 +18,7 @@ body {
 .grid-3-columns {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  padding: 40px 25px;
+  padding: 0px 25px 40px 25px;
   gap: 20px;
 }
 .grid-2-columns-irregular {
@@ -165,13 +165,17 @@ a {
 }
 
 footer {
-  margin-top: 20px;
+  margin-top: 60px;
   margin-left: 20px;
   margin-right: 20px;
   padding: 20px auto;
   text-align: center;
   background-color: rgba(211, 211, 211, 0.4);
 }
+footer .grid-3-columns {
+  padding-top: 20px;
+}
+
 footer p {
   font-size: 16px;
   letter-spacing: 3px;
