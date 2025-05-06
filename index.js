@@ -39,7 +39,7 @@ function showArchiveText() {
 
   showSix.className = "show-list-item";
   showSix.innerHTML =
-    "<b><u>2025</u></b> <br /> <b>Die Thrillerpfeifen: </b> <br /> Mord beim Zahnarzt <br /> Mord beim Weiberfasching<br /> Mord im Zoo <br /> Mord im Casino";
+    "<b><u>2025</u></b> <br /> <b>Die Thrillerpfeifen: </b>  <br /> <br /> Mord in der Antonius-Tenne <br /> Mord im Fast-Food-Restaurant <br /> Mord im Chor <br /> Mord in der Fahrschule <br /> Mord beim Zahnarzt <br /> Mord beim Weiberfasching<br /> Mord im Zoo <br /> Mord im Casino";
   document.getElementById("show-list").appendChild(showSix);
 
   showFive.className = "show-list-item";
